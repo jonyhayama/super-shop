@@ -1,4 +1,4 @@
-# lottery-winner-simulator
+# super-shop
 
 ## Project setup
 ```

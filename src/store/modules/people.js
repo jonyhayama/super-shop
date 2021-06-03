@@ -17,7 +17,7 @@ export default {
     async fetch({ commit }) {
       commit('setLoading', true);
       try {
-        const { data } = await axios.get('/assets/json/people.json');
+        const { data } = await axios.get('assets/json/people.json');
 
         commit('setList', data);
       } catch (error) {

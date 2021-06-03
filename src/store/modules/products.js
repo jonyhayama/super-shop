@@ -16,7 +16,7 @@ export default {
     async fetchProducts({ commit }) {
       commit('setLoading', true);
       try {
-        const response = await axios.get('/assets/json/products.json');
+        const response = await axios.get('assets/json/products.json');
         commit('setProducts', response.data);
       } catch (error) {
         commit('setLastError', error);
